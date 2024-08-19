@@ -21,8 +21,5 @@
     "type": "git",
     "url": "https://github.com/yoces-canada/theme.git",
     "directory": "packages/theme"
-  },
-  "dependencies": {
-    "theme-ui": "^0.14.5"
   }
 }
