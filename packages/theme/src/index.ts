@@ -1,24 +1,24 @@
 import type { Theme } from 'theme-ui'
 import prism from './prism'
 const colors = {
-  darker: '#121217',
-  dark: '#17171d',
-  darkless: '#252429',
+  darker: '#11111b',
+  dark: '#181825',
+  darkless: '#1e1e2e',
 
-  black: '#1f2d3d',
-  steel: '#273444',
-  slate: '#3c4858',
-  muted: '#8492a6',
-  smoke: '#e0e6ed',
-  snow: '#f9fafc',
-  white: '#ffffff',
+  black: '#313244',
+  steel: '#45475a',
+  slate: '#585b70',
+  muted: '#6c7086',
+  smoke: '#a6adc8',
+  snow: '#bac2de',
+  white: '#cdd6f4',
 
   red: '#ec3750',
   orange: '#ff8c37',
   yellow: '#f1c40f',
   green: '#33d6a6',
-  cyan: '#5bc0de',
-  blue: '#338eda',
+  cyan: '#87cdfa',
+  blue: '#1d90ff',
   purple: '#a633d6',
 
   twitter: '#1da1f2',
@@ -53,9 +53,9 @@ const theme: Theme = {
     border: colors.smoke,
     placeholder: colors.muted,
     secondary: colors.slate,
-    primary: colors.red,
+    primary: colors.blue,
     muted: colors.muted,
-    accent: colors.blue,
+    accent: colors.cyan,
     modes: {
       dark: {
         text: colors.white,
@@ -248,7 +248,7 @@ const theme: Theme = {
     cta: {
       variant: 'buttons.primary',
       fontSize: 2,
-      backgroundImage: t => t.util.gx('orange', 'red')
+      backgroundImage: t => t.util.gx('cyan', 'blue')
     },
     ctaLg: {
       variant: 'buttons.primary',
@@ -256,7 +256,7 @@ const theme: Theme = {
       fontSize: 3,
       px: 4,
       py: 3,
-      backgroundImage: t => t.util.gx('orange', 'red')
+      backgroundImage: t => t.util.gx('cyan', 'blue')
     }
   },
   cards: {

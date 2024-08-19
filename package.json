@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "scripts": {
     "prepare": "lerna run prepare",
     "clean": "lerna run clean",

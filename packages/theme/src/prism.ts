@@ -7,12 +7,12 @@ export default {
   },
   '.property, .tag, .boolean, .number, .constant, .symbol, .deleted, .function, .class-name, .regex, .important, .variable':
     {
-      color: 'red'
+      color: 'blue'
     },
   '.atrule, .attr-value, .keyword': {
     color: 'blue'
   },
   '.selector, .attr-name, .string, .char, .builtin, .inserted': {
-    color: 'orange'
+    color: 'cyan'
   }
 }
